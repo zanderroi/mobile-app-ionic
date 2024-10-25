@@ -7,45 +7,27 @@ Follow these steps to set up and run the project
 1. Clone the repository
 
 ```
-git clone https://github.com/zanderroi/thinkbit-exam.git
+git clone https://github.com/zanderroi/mobile-app-ionic.git
 ```
 
 2. Install PHP dependencies
 
 ```
-composer install
-```
-
-3. Install JavaSript dependencies
-```
 npm install
 ```
 
-4. Generate application key
-
-```
-php artisan key:generate
-```
-
-## Environment Setup
+## Running the Project
 
 1. 
 
 ```
-cp .env.example .env
+ionic serve
 ```
 
-2. Configure ENV file
+2. If using Ionic’s Capacitor for native builds:
 
-3. Run database migrations
-
-```
-php artisan migrate
 
 ```
+ionic cap sync
 
-4. Seed database (optional)
-
-```
-php artisan db:seed
 ```

@@ -1,0 +1,21 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "NudMotoya Maru W55 W5";
+    src: url("https://db.onlinewebfonts.com/t/90ac3b18aaef9f2db3ac8e062c7a033b.eot");
+    src: url("https://db.onlinewebfonts.com/t/90ac3b18aaef9f2db3ac8e062c7a033b.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/90ac3b18aaef9f2db3ac8e062c7a033b.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/90ac3b18aaef9f2db3ac8e062c7a033b.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/90ac3b18aaef9f2db3ac8e062c7a033b.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/90ac3b18aaef9f2db3ac8e062c7a033b.svg#NudMotoya Maru W55 W5") format("svg");
+}
+
+/* Apply the font to the entire app */
+:root {
+    --ion-font-family: "NudMotoya Maru W55 W5", sans-serif;
+}
